@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/whitebg"
     tools:context="vunhi.psulocator.MainActivity">
 
         <TextView
@@ -33,9 +34,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:background="?android:attr/windowBackground"
         app:menu="@menu/navigation"
-        android:layout_alignParentBottom = "true"/>
+        android:layout_alignParentBottom = "true"
+        android:background="@android:color/white"/>
 
     <Button
         android:id="@+id/cramer"
