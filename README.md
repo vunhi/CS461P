@@ -16,19 +16,7 @@ The Minimum API Level for the PSU Locator applicataion is 22. There are two opti
 
 # Copyright
 
-Copyright © 2017 Nhi Vu, Victor Diego
-
-This project was adapted from another Office Locator application that was specifically designed for the Nike campus for a Capstone class for which I was a part of. This was also an open source project and the source code for that version can be found here: https://github.com/cnorton18/capstone2017/tree/Markers. Although this PSU Locator was based off of this group capstone project, I have taken only source code that I and my partner Victor Diego worked on and have added my own additional code to it. He has granted me permission to use his work in this application. 
-
-Copyright © 2017 Portland State University 
-
-The Portland State logo and campus maps and floor plans were taken from the official Portland State University website pdx.edu through these specific pages: https://www.pdx.edu/university-communications/download-psu-logo and https://www.pdx.edu/floorplans/campus-map respectively. 
-
-Copyright © 2017 Portland State University 
-
-Copyright © 2014 anorth 
-
-A portion of the source code used to provide pinch-zoom capabilities in the app was taken from the open source project https://gist.github.com/anorth/9845602. 
+For copyright information for this project see the [COPYING] (https://github.com/vunhi/CS461P/blob/master/COPYING.md) file. 
 
 # License 
 
@@ -37,14 +25,4 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 # Contact
 Nhi Vu - vunhi@pdx.edu
 
-# Week 3 Project Update
-
-Right now I have successfully implemented the interactive map aspect of the the PSU locator for one floor for one building on the campus. This is for the Cramer building. So when the user clicks on this building in the map they are taken to the basement floorplan of Cramer.
-
-Now I must incorporate the option of choosing different floors and different rooms for each building. 
-
-For the remainder of the term that is what I will be working on as well as adding the search functionality and improving the ease of use of the app as well as the general app theme. If I have time I hope to accomplish this for every floor and room number for each building (though that is quite a lot of buildings!). I also need to finish filling out the project ReadMe; as you can see, it's pretty bare right now. 
-
-Some difficulties I'm facing: figuring out how to incorporate the interactive navigation bar for each page. Also, I find that working with the android xml files is very difficult. Using the design function is not as intuitive as it seems: dragging widgets across the screen is not entirely smooth and it can throw off the layout of all other widgets on the screen. And even though the layout appears one way on the projected screen in AS it is soemtimes not the same as what appears on the actual phone screen. This is a very stressful obstacle to overcome. 
-
-
+# [Week 3 Project Update](https://github.com/vunhi/CS461P/blob/master/Week%203%20Progress%20Update.md)
