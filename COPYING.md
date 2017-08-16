@@ -8,8 +8,6 @@ Copyright © 2017 Portland State University
 
 The Portland State logo and campus maps and floor plans were taken from the official Portland State University website pdx.edu through these specific pages: https://www.pdx.edu/university-communications/download-psu-logo and https://www.pdx.edu/floorplans/campus-map respectively. 
 
-Copyright © 2017 Portland State University 
-
 Copyright © 2014 anorth 
 
 A portion of the source code used to provide pinch-zoom capabilities in the app was taken from the open source project https://gist.github.com/anorth/9845602. 
