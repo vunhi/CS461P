@@ -3,6 +3,7 @@
     android:id="@+id/custom_spinner"
     android:textSize="14sp"
     android:text="Select"
+    android:textColor="@color/colorSecondary"
     android:padding="5dp"
     android:background="@drawable/roundedcorners"
     android:layout_width="match_parent"
