@@ -1,4 +1,4 @@
-package com.groupc.officelocator;
+package com.vunhi.psulocator;
 
 /***************************************************************************************
  *    Title: ZoomLayout.java

@@ -1,4 +1,4 @@
-package com.groupc.OfficeLocator;
+package com.vunhi.OfficeLocator;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

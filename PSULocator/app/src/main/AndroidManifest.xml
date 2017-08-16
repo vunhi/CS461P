@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.groupc.officelocator">
+    package="com.vunhi.psulocator">
 
     <application
         android:allowBackup="true"
@@ -10,7 +10,7 @@
         android:largeHeap="true"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.groupc.officelocator.MainActivity"
+        <activity android:name="com.vunhi.psulocator.MainActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,16 +18,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.groupc.officelocator.campus"
+        <activity android:name="com.vunhi.psulocator.campus"
             android:screenOrientation="portrait"/>
-        <activity android:name="com.groupc.officelocator.floorplan"
+        <activity android:name="com.vunhi.psulocator.floorplan"
             android:screenOrientation="portrait"/><![CDATA[
         android:windowSoftInputMode="stateHidden"/>
         ]]>
-        <activity android:name="com.groupc.officelocator.masterSearchWithHeaders"
+        <activity android:name="com.vunhi.psulocator.masterSearchWithHeaders"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan"/>
-        <activity android:name="com.groupc.officelocator.favoritesList"
+        <activity android:name="com.vunhi.psulocator.favoritesList"
             android:screenOrientation="portrait" />
 
     </application>

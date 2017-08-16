@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
-    tools:context="com.groupc.officelocator.MainActivity">
+    tools:context="com.vunhi.psulocator.MainActivity">
 
     <ImageView
         android:id="@+id/imageView4"

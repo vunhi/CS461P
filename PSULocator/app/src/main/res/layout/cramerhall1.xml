@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.groupc.officelocator.campus">
+    tools:context="com.vunhi.psulocator.campus">
 
     <!-- Universal Layout -->
     <include
@@ -13,7 +13,7 @@
         layout="@layout/universal_layout" />
 
     <!-- Zoomable floorplan image -->
-    <com.groupc.officelocator.ZoomLayout
+    <com.vunhi.psulocator.ZoomLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/activity_floorplan"
@@ -27,7 +27,7 @@
             android:layout_height="match_parent"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
-            tools:context="com.groupc.officelocator.floorplan"
+            tools:context="com.vunhi.psulocator.floorplan"
             android:id="@+id/zoom">
 
             <ImageView
@@ -65,7 +65,7 @@
                 android:layout_marginBottom="65dp" />
 
         </RelativeLayout>
-    </com.groupc.officelocator.ZoomLayout>
+    </com.vunhi.psulocator.ZoomLayout>
 
     <!-- Floor spinner prompt -->
     <TextView

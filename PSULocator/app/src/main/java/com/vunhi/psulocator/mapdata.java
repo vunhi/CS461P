@@ -1,9 +1,7 @@
-package com.groupc.officelocator;
+package com.vunhi.psulocator;
 
-import android.graphics.drawable.Drawable;
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.widget.ImageView;
 
 import java.util.ArrayList;
 

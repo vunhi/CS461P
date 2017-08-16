@@ -1,4 +1,4 @@
-package com.groupc.officelocator;
+package com.vunhi.psulocator;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -7,14 +7,10 @@ import android.graphics.Typeface;
 import android.os.Bundle;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
-import android.view.Gravity;
 import android.view.View;
 import android.view.Window;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
-import android.widget.FrameLayout;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.groupc.officelocator.campus">
+    tools:context="com.vunhi.psulocator.campus">
 
     <!-- Universal Layout -->
     <include
@@ -40,7 +40,7 @@
         android:textStyle="bold" />
 
     <!-- Zoomable aspect of the page: the campus map + building buttons -->
-    <com.groupc.officelocator.ZoomLayout
+    <com.vunhi.psulocator.ZoomLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/activity_campus"
@@ -52,7 +52,7 @@
         <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            tools:context="com.groupc.officelocator.campus"
+            tools:context="com.vunhi.psulocator.campus"
             android:id="@+id/zoom">
 
             <!-- Campus Map -->
@@ -86,7 +86,7 @@
                 android:layout_marginLeft="178dp" />
 
         </RelativeLayout>
-        </com.groupc.officelocator.ZoomLayout>
+        </com.vunhi.psulocator.ZoomLayout>
 
     <!-- "Select a Building or Search Prompt -->
     <TextView
