@@ -8,11 +8,11 @@ The PSU locator is an android application that helps users navigate their way th
 As of this release the PSU Locator has been successfully implemented 2 buildings on the campus: Cramer Hall and Neuberger Hall. Each building has 2 floors each with 2 rooms to demonstrate the functionality. 
 
 ## Build
-The Minimum API Level for the PSU Locator applicataion is 22. There are two options to run this application on your android device: 
+The Minimum API Level for the PSU Locator applicataion is 22. The mobile device or emulator running the application must have an API greater than or equal to 22. There are two options to run this application on your android device: 
 
-1. Download the [apk](https://github.com/vunhi/CS461P/blob/master/PSU%20Campus%20Locator.apk) for the application through this link and install it on your phone. 
+1. Download the [apk](https://github.com/vunhi/CS461P/blob/master/PSU%20Campus%20Locator.apk) to your android device. Use the file manager on your device to locate the file and install it on your phone. Allow for the application to be installed in your settings. 
 
-2. Using an Android development environment, Clone or Download the source code from the [github repository](https://github.com/vunhi/CS461P) and build the application and run it on your device or emulator. 
+2. Using an Android development environment like Android Studio, Clone or Download the source code from the [github repository](https://github.com/vunhi/CS461P) and build the application and run it on your device (hooking up your device to your computer) or an appropriate emulator. 
 
 ## Copyright
 
