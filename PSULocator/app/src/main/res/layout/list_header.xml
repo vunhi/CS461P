@@ -13,6 +13,7 @@
         android:padding="10dp"
         android:text="Section"
         android:background="@color/colorPrimary"
-        android:textColor="@color/lightGray"
-        android:textStyle="bold" />
+        android:textColor="@color/colorSecondary"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
 </LinearLayout>

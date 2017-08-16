@@ -189,6 +189,8 @@ public class masterSearchWithHeaders extends AppCompatActivity {
                 convertView = inflater.inflate(R.layout.list_header, parent, false);
                 TextView headerName = (TextView) convertView.findViewById(R.id.searchHeader);
                 headerName.setText(((BuildingName) searchItem.get(position)).getName());
+                Typeface myCustomfont = Typeface.createFromAsset(getAssets(), "fonts/AdobeGaramondProRegular.ttf");
+                headerName.setTypeface(myCustomfont);
             }
             else
             {

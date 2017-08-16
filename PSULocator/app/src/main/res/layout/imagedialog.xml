@@ -9,7 +9,7 @@
         android:id="@+id/buildingLocation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/cramerhighlighted"
+        app:srcCompat="@drawable/cramerhallhighlighted"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />

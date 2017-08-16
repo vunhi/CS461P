@@ -38,6 +38,7 @@ public class floorplan extends AppCompatActivity{
     public static int floorselected = 0; //Determines if a floor number was chosen in Search or through Spinner
     public static int fromSearch = 0; //Determines if the previous page was Search before coming to the floorplan page
     public static int fromCampus = 0; //Determines if the previous page was the campus page
+    public static int fromFavsFloor = 0; //Determines if previous page was Favorites floor selection
 
     ImageView buildingLocation, spinner2drop, selectedRoom;
     private Spinner chooseFloor, chooseRoom;
@@ -123,6 +124,7 @@ public class floorplan extends AppCompatActivity{
                 rmName = "";
 
                 if (floorNumber.equals("Choose a floor")) {
+                    floorplanname.setText(fpname);
                     //Disable Room spinner
                     chooseRoom.setSelection(0,true);
                     chooseRoom.setEnabled(false);
@@ -190,10 +192,10 @@ public class floorplan extends AppCompatActivity{
 
         //Pulling map data on entry into the activity
         //if(fromSearch == 1) {
-            data = new mapdata();
-            Intent goToFloorPlan = getIntent();
-            dataContainer = goToFloorPlan.getExtras();
-            data = dataContainer.getParcelable("parse");
+        data = new mapdata();
+        Intent goToFloorPlan = getIntent();
+        dataContainer = goToFloorPlan.getExtras();
+        data = dataContainer.getParcelable("parse");
         //}
 
         spinner2drop = (ImageView)findViewById(R.id.imageView10); //Dropdown arrow for 2nd spinner
@@ -215,14 +217,16 @@ public class floorplan extends AppCompatActivity{
         floorplanname = (TextView) findViewById(R.id.floorPlanName);
         floorplanname.setTypeface(myCustomfont);
 
-        if(fromSearch == 1) {
+        if(Integer.parseInt(floorNumber) > 0 && fromSearch == 1 && fromFavsFloor == 0) {
             String tempName = rmName.toLowerCase().replaceAll("\\s","");
             int roomID =
                     getResources().getIdentifier(tempName,"id",getPackageName());
             selectedRoom = (ImageView)findViewById(roomID);
-            //selectedRoom.setVisibility(View.VISIBLE);
+            selectedRoom.setVisibility(View.VISIBLE);
         }
-        if(floorNumber.equals("0"))
+
+        //If the floor plan title has a floor number, we add that to the title
+        if(Integer.parseInt(floorNumber) == 0)
             floorNumber = "1";
         floorplanname.setText(fpname + " Floor " + floorNumber);
 
@@ -293,10 +297,11 @@ public class floorplan extends AppCompatActivity{
                 }
                 //+1 to skip past 'choose a room'
                 chooseRoom.setSelection(selection+1,true);
-                //Flag reset
+                //Flag resets
                 setRoomfromSearch = 0;
             }
             fromSearch = 0;
+            fromFavsFloor = 0;
             select();
         }
         //Pop up dialog for building location
@@ -360,8 +365,8 @@ public class floorplan extends AppCompatActivity{
 
                 String display = null;
                 if(floorNumber.equals("0")) {
-                    addtofavorite = fpname + " Basement";
-                    display = fpname + " Basement";
+                    addtofavorite = fpname;
+                    display = fpname;
                 }
                 else if(rmName.equals("")) {
                     addtofavorite = fpname + " " + Integer.toString(floorselected);

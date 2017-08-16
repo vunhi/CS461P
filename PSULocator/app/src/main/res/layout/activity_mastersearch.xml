@@ -36,9 +36,9 @@
     <!-- Search bar where the user enters in the search term -->
     <EditText
         android:id="@+id/searchBar"
-        android:textColorHint="@color/colorPrimary"
+        android:textColorHint="@color/colorAccent"
         android:hint="Search..."
-        android:textColor="@color/colorPrimary"
+        android:textColor="@color/colorAccent"
         android:paddingTop="8dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

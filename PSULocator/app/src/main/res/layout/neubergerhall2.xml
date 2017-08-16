@@ -35,27 +35,31 @@
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentRight="true"
                 android:layout_marginTop="5dp"
-                app:srcCompat="@drawable/neuberger2" />
+                app:srcCompat="@drawable/neubergerhall2" />
 
             <ImageView
-                android:id="@+id/neuberger126"
+                android:id="@+id/nh222"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:visibility="invisible"
                 app:srcCompat="@drawable/locate"
                 android:tint="@color/markerColor"
-                android:layout_marginTop="80dp"
-                android:layout_marginLeft="170dp"/>
+                android:layout_marginLeft="210dp"
+                android:layout_marginTop="135dp" />
 
             <ImageView
-                android:id="@+id/neuberger122"
+                android:id="@+id/nh275"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:visibility="invisible"
                 app:srcCompat="@drawable/locate"
                 android:tint="@color/markerColor"
-                android:layout_marginLeft="80dp"
-                android:layout_marginTop="10dp" />
+                android:layout_marginLeft="255dp"
+                android:layout_alignBottom="@+id/floorPlanImage"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginBottom="145dp" />
+
         </RelativeLayout>
     </com.groupc.officelocator.ZoomLayout>
 
@@ -197,5 +201,6 @@
         android:layout_alignParentBottom = "true"
         app:itemIconTint="@color/navigationToolbarDefault"
         app:itemTextColor="@color/navigationToolbarDefault" />
+
 
 </RelativeLayout>

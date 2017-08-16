@@ -34,29 +34,33 @@
                 android:id="@+id/floorPlanImage"
                 android:layout_width="380dip"
                 android:layout_height="380dip"
-                app:srcCompat="@drawable/cramer2"
+                app:srcCompat="@drawable/cramerhall2"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentStart="true" />
 
             <ImageView
-                android:id="@+id/ch101"
+                android:id="@+id/ch269"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:visibility="invisible"
                 app:srcCompat="@drawable/locate"
                 android:tint="@color/markerColor"
-                android:layout_marginTop="80dp"
-                android:layout_marginLeft="170dp"/>
+                android:layout_marginTop="120dp"
+                android:layout_marginLeft="170dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="104dp" />
 
             <ImageView
-                android:id="@+id/ch124"
+                android:id="@+id/ch287"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:visibility="invisible"
                 app:srcCompat="@drawable/locate"
                 android:tint="@color/markerColor"
-                android:layout_marginLeft="80dp"
-                android:layout_marginTop="10dp" />
+                android:layout_marginLeft="105dp"
+                android:layout_marginTop="208dp" />
+
 
         </RelativeLayout>
     </com.groupc.officelocator.ZoomLayout>
@@ -173,6 +177,7 @@
         android:layout_centerHorizontal="true"
         android:visibility="invisible"/>
 
+    <!-- Building locator button -->
     <!-- Building locator button -->
     <ImageButton
         android:id="@+id/buildinglocator"

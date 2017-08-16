@@ -25,8 +25,6 @@
         <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentLeft="true"
             tools:context="com.groupc.officelocator.floorplan"
             android:id="@+id/zoom">
 
@@ -34,31 +32,35 @@
                 android:id="@+id/floorPlanImage"
                 android:layout_width="380dip"
                 android:layout_height="380dip"
-                app:srcCompat="@drawable/cramer1"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentStart="true" />
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="5dp"
+                app:srcCompat="@drawable/neubergerhall1" />
 
             <ImageView
-                android:id="@+id/cramer53"
+                android:id="@+id/nh126"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:visibility="invisible"
                 app:srcCompat="@drawable/locate"
                 android:tint="@color/markerColor"
-                android:layout_marginTop="80dp"
-                android:layout_marginLeft="170dp"/>
+                android:layout_marginTop="28dp"
+                android:layout_marginLeft="170dp"
+                android:layout_below="@+id/nh122"
+                android:layout_toStartOf="@+id/nh122"
+                android:layout_marginEnd="27dp" />
 
             <ImageView
-                android:id="@+id/cramer71"
+                android:id="@+id/nh122"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:visibility="invisible"
                 app:srcCompat="@drawable/locate"
                 android:tint="@color/markerColor"
                 android:layout_marginLeft="80dp"
-                android:layout_marginTop="10dp" />
-
-
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="62dp" />
         </RelativeLayout>
     </com.groupc.officelocator.ZoomLayout>
 
@@ -141,16 +143,6 @@
         app:srcCompat="@drawable/drop"
         android:visibility="invisible"/>
 
-    <!-- Button to tell a user to select a floor if they click on Choose a Room when the floor isn't set -->
-    <Button
-        android:id="@+id/cantselectroom"
-        android:layout_width="210dp"
-        android:layout_height="40dp"
-        android:layout_alignLeft="@id/roomSelector"
-        android:layout_alignTop="@id/roomSelector"
-        android:background="@android:color/transparent"
-        android:clickable="false"/>
-
     <!-- Building + Floor header -->
     <TextView
         android:id="@+id/floorPlanName"
@@ -174,7 +166,6 @@
         android:layout_centerHorizontal="true"
         android:visibility="invisible"/>
 
-    <!-- Building locator button -->
     <!-- Building locator button -->
     <ImageButton
         android:id="@+id/buildinglocator"

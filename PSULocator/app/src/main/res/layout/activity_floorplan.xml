@@ -32,7 +32,7 @@
                 android:id="@+id/floorPlanImage"
                 android:layout_width="380dip"
                 android:layout_height="380dip"
-                app:srcCompat="@drawable/cramer1"
+                app:srcCompat="@drawable/cramerhall1"
                 android:layout_alignParentRight="true"
                 android:layout_alignParentEnd="true"
                 android:layout_marginTop="5dp"/>
