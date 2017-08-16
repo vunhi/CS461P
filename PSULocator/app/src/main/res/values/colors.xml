@@ -7,7 +7,8 @@
     <color name="lightGray">#d3d3d3</color>
     <color name="darkGray">#808080</color>
     <color name="veryDarkGray">#303030</color>
-    <color name="iconColor">#FFFFFF</color>
+    <color name="iconColor">#d3d3d3</color>
     <color name="markerColor">#6a7f10</color>
+    <color name="navigationToolbarDefault">#808080</color>
 </resources>
 

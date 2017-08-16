@@ -2,14 +2,14 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="170dip"
-    android:background="@color/veryDarkGray">
+    android:background="@color/lightGray">
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:height="30dp"
-        android:background="@color/lightGray"
+        android:background="@color/veryDarkGray"
         android:clickable="true"
         android:gravity="center_vertical|center_horizontal"
         android:padding="5dp"
@@ -31,7 +31,6 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:gravity="center_vertical|center_horizontal"
         android:background="@drawable/cancel"
-        android:tint="@color/iconColor"
         android:id="@+id/cancel"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"

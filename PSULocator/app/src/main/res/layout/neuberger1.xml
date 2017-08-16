@@ -19,8 +19,8 @@
         android:id="@+id/activity_floorplan"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingTop="60dp"
-        android:paddingBottom="60dp">
+        android:paddingTop="62dp"
+        android:paddingBottom="165dp">
 
         <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="match_parent"
@@ -38,7 +38,7 @@
                 app:srcCompat="@drawable/neuberger1" />
 
             <ImageView
-                android:id="@+id/Neuberger126"
+                android:id="@+id/nh96"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:visibility="invisible"
@@ -48,7 +48,7 @@
                 android:layout_marginLeft="170dp"/>
 
             <ImageView
-                android:id="@+id/Neuberger122"
+                android:id="@+id/nh11"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:visibility="invisible"
@@ -164,29 +164,28 @@
     <!-- Building locator button -->
     <ImageButton
         android:id="@+id/buildinglocator"
-        android:layout_width="65dp"
-        android:layout_height="65dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
         android:scaleType="fitXY"
         android:background="@android:color/transparent"
-        app:srcCompat="@drawable/locator"
-        android:layout_marginTop="60dp"
+        app:srcCompat="@drawable/locate"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="132dp"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:tint="@color/iconColor"/>
+        android:tint="@color/colorPrimary"/>
 
     <!-- Favorites button -->
     <ImageButton
         android:id="@+id/favorite"
-        android:layout_width="65dp"
-        android:layout_height="65dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
         android:scaleType="fitXY"
         android:background="@android:color/transparent"
-        app:srcCompat="@drawable/favorite"
+        app:srcCompat="@drawable/ic_favorite"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="60dp"
+        android:layout_marginBottom="80dp"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:tint="@color/iconColor"/>
+        android:tint="@color/colorPrimary"/>
 
     <!-- Bottom navigation toolbar -->
     <android.support.design.widget.BottomNavigationView
@@ -196,28 +195,8 @@
         android:layout_gravity="bottom"
         app:menu="@menu/navigation"
         android:layout_alignParentBottom = "true"
-        app:itemIconTint="@color/colorSecondary"
-        app:itemTextColor="@color/colorSecondary" />
+        app:itemIconTint="@color/navigationToolbarDefault"
+        app:itemTextColor="@color/navigationToolbarDefault" />
 
-    <ImageView
-        android:id="@+id/pegasus"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_marginTop="50dp"
-        android:visibility="invisible"
-        app:srcCompat="@drawable/marker"
-        android:layout_below="@+id/buildinglocator"
-        android:layout_alignEnd="@+id/roomName"
-        android:layout_marginEnd="10dp" />
-
-    <ImageView
-        android:id="@+id/vapormax"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:visibility="invisible"
-        app:srcCompat="@drawable/marker"
-        android:layout_below="@+id/pegasus"
-        android:layout_toStartOf="@+id/floorPlanName"
-        android:layout_marginTop="79dp" />
 
 </RelativeLayout>

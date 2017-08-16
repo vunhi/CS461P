@@ -220,17 +220,11 @@ public class floorplan extends AppCompatActivity{
             int roomID =
                     getResources().getIdentifier(tempName,"id",getPackageName());
             selectedRoom = (ImageView)findViewById(roomID);
-            selectedRoom.setVisibility(View.VISIBLE);
+            //selectedRoom.setVisibility(View.VISIBLE);
         }
-
-        //If the floor plan title has a floor number, we add that to the title
-        //if(Integer.parseInt(floorNumber) == 0) //For those without a floor number ("Mia Hamm"/"Tiger Woods"
-            //the default is the first floor
-            //floorNumber = "1";
         if(floorNumber.equals("0"))
-            floorplanname.setText(fpname + " Basement");
-        else
-            floorplanname.setText(fpname + " Floor " + floorNumber);
+            floorNumber = "1";
+        floorplanname.setText(fpname + " Floor " + floorNumber);
 
         buildingselected = spinnerNumber + 1;
 

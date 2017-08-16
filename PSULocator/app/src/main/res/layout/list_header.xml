@@ -7,11 +7,12 @@
 
     <TextView
         android:id="@+id/searchHeader"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
         android:padding="10dp"
         android:text="Section"
-        android:textColor="@color/darkGray"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/lightGray"
         android:textStyle="bold" />
 </LinearLayout>

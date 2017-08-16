@@ -68,7 +68,7 @@ public class favoritesList extends AppCompatActivity {
             listofFavorites.add(room);
         }
 
-        arrayAdapter = new ArrayAdapter<String>(this, R.layout.listview_item_format, listofFavorites);
+        arrayAdapter = new ArrayAdapter<String>(this, R.layout.listtextview, listofFavorites);
         allFavorites.setAdapter(arrayAdapter);
 
         //The first time the user utilizes the app a popup dialog will appear giving them instructions on
@@ -94,7 +94,7 @@ public class favoritesList extends AppCompatActivity {
                 choice = part1.replace(" Floor","");
 
                 for(int i = 0; i < data.numberofBuildings; ++i) {
-                    //If the user clicks a section header ("Mia Hamm"/"Tiger Woods")
+                    //If the user clicks a section header
                     //If string reads ...Floor (number) [this will not work for buildings
                     //with over 100 floors, but that shouldn't be an issue for now. If we
                     //sell the app to a New York City developer, change this line!]
@@ -174,7 +174,7 @@ public class favoritesList extends AppCompatActivity {
                             }
                             listofFavorites.add(rooms);
                         }
-                        arrayAdapter = new ArrayAdapter<String>(favoritesList.this, R.layout.listview_item_format, listofFavorites);
+                        arrayAdapter = new ArrayAdapter<String>(favoritesList.this, R.layout.listtextview, listofFavorites);
                         allFavorites.invalidateViews();
                         allFavorites.setAdapter(arrayAdapter);
                         break;

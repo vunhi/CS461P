@@ -36,20 +36,8 @@
         android:paddingTop="5dp"
         android:text="@string/campus_name"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textSize="25sp"
+        android:textSize="23sp"
         android:textStyle="bold" />
-
-    <!-- "Select a Building or Search Prompt -->
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/selecttxt"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        android:textSize="10sp"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="80dp"
-        android:layout_centerHorizontal="true" />
 
     <!-- Zoomable aspect of the page: the campus map + building buttons -->
     <com.groupc.officelocator.ZoomLayout
@@ -58,8 +46,8 @@
         android:id="@+id/activity_campus"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingTop="60dp"
-        android:paddingBottom="60dp">
+        android:paddingTop="61dp"
+        android:paddingBottom="61dp">
 
         <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="match_parent"
@@ -100,5 +88,16 @@
         </RelativeLayout>
         </com.groupc.officelocator.ZoomLayout>
 
+    <!-- "Select a Building or Search Prompt -->
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selecttxt"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="10sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<campus campusName="PSU" numberOfBuildings = "1">
-    <building buildingName="Cramer" numberOfFloors="1">
-        <floor level="0" src="cramer0">
+<campus campusName="PSU" numberOfBuildings = "2">
+    <building buildingName="Cramer" numberOfFloors="2">
+        <floor level="1" src="cramer1">
             <room roomName="Cramer53"/>
             <room roomName="Cramer71"/>
         </floor>
-        <floor level="1" src="cramer1">
-            <room roomName="CH 101"/>
-            <room roomName="CH 124"/>
+        <floor level="2" src="cramer2">
+            <room roomName="CH101"/>
+            <room roomName="CH124"/>
         </floor>
     </building>
     <building buildingName="Neuberger" numberOfFloors="2">
-        <floor level="0" src="neuberger0">
-            <room roomName="NH 96"/>
-            <room roomName="NH 11"/>
-        </floor>
         <floor level="1" src="neuberger1">
-            <room roomName="Neuberger 126"/>
-            <room roomName="Neuberger 122"/>
+            <room roomName="NH96"/>
+            <room roomName="NH11"/>
+        </floor>
+        <floor level="2" src="neuberger2">
+            <room roomName="Neuberger126"/>
+            <room roomName="Neuberger122"/>
         </floor>
     </building>
 </campus>
