@@ -1,24 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="vunhi.psulocator">
+    package="com.groupc.officelocator">
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/psulogo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:largeHeap="true"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name">
+        <activity android:name="com.groupc.officelocator.MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="vunhi.psulocator.building" />
+        <activity android:name="com.groupc.officelocator.campus"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.groupc.officelocator.floorplan"
+            android:screenOrientation="portrait"/><![CDATA[
+        android:windowSoftInputMode="stateHidden"/>
+        ]]>
+        <activity android:name="com.groupc.officelocator.masterSearchWithHeaders"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan"/>
+        <activity android:name="com.groupc.officelocator.favoritesList"
+            android:screenOrientation="portrait" />
+
     </application>
 
 </manifest>

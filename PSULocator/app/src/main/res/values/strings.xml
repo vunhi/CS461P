@@ -1,14 +1,89 @@
 <resources>
-    <string name="app_name">PSU Locator</string>
-    <string name="title_home">Home </string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
-    <string name="title_search">Search</string>
+    <string name="app_name">Swoosh Room Finder</string>
+    <string name="campus_name">World Headquarters</string>
+    <string name="selecttxt">Select A Building Or Search</string>
 
-    <string-array name="cramer">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
+    //List of buildings
+    <string-array name = "Buildings" >
+        <item>Mia Hamm</item>
+        <item>Tiger Woods Center</item>
     </string-array>
+
+    //Choices for spinners
+    <string-array name="miaHamm1">
+        <item>Select</item>
+        <item>Air Max</item>
+        <item>Flyknit</item>
+    </string-array>
+
+    <string-array name="miaHamm2">
+        <item>Select</item>
+        <item>Kobe Mamba</item>
+        <item>LunarCharge</item>
+    </string-array>
+
+    <string-array name="tigerWoodsCenter1">
+        <item>Select</item>
+        <item>Bay Hill</item>
+        <item>Coghill</item>
+        <item>Newport</item>
+        <item>Pumpkin Ridge</item>
+        <item>Rotunda</item>
+        <item>Sawgrass</item>
+        <item>The Stanford Theatre</item>
+        <item>Torrey Pines</item>
+        <item>Waverley</item>
+        <item>Wollaston</item>
+    </string-array>
+
+    <string-array name="tigerWoodsCenter2">
+        <item>Select</item>
+        <item>Alpine</item>
+        <item>Blue Canyon</item>
+        <item>Glen Abbey</item>
+        <item>Las Colinas</item>
+        <item>Mojo</item>
+        <item>Muirfield</item>
+        <item>Summerlin</item>
+        <item>Tour Accuracy</item>
+        <item>Tour TW</item>
+        <item>Wentworth North</item>
+        <item>Wentworth South</item>
+        <item>Valderrama</item>
+    </string-array>
+
+    <string-array name="tigerWoodsCenter3">
+        <item>Select</item>
+        <item>Air Birkdale</item>
+        <item>Elite Feel</item>
+        <item>Lounge 270</item>
+    </string-array>
+
+    <string-array name="peteSampras1">
+        <item>Select</item>
+        <item>Air Alarm</item>
+        <item>Air Tension</item>
+        <item>Courtster</item>
+        <item>Court Diva</item>
+    </string-array>
+
+    <string-array name="peteSampras2">
+        <item>Select</item>
+        <item>Air Bonita</item>
+        <item>Air Resistance</item>
+        <item>Air Tour</item>
+    </string-array>
+
+    <string-array name="peteSampras3">
+        <item>Select</item>
+        <item>Air Advantage</item>
+        <item>Air Flare</item>
+        <item>Air Mista</item>
+        <item>Grandstand</item>
+        <item>Rivalry</item>
+        <item>Ultra Court</item>
+    </string-array>
+
+
+
 </resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.groupc.officelocator.campus">
+
+    <!-- Universal Layout -->
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        layout="@layout/universal_layout" />
+
+    <!-- Fixed elements on screen that are unique to the page -->
+
+    <!-- Bottom Navigation Toolbar -->
+    <!-- had to pull out of universal layout cause I could not get it working in the java classes -->
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:menu="@menu/navigation"
+        android:layout_alignParentBottom = "true"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"/>
+
+    <!-- Page Title -->
+    <TextView
+        android:id="@+id/campus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="5dp"
+        android:text="@string/campus_name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <!-- "Select a Building or Search Prompt -->
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selecttxt"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="10sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:layout_centerHorizontal="true" />
+
+    <!-- Zoomable aspect of the page: the campus map + building buttons -->
+    <com.groupc.officelocator.ZoomLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_campus"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="60dp"
+        android:paddingBottom="60dp">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.groupc.officelocator.campus"
+            android:id="@+id/zoom">
+
+            <!-- Campus Map -->
+            <ImageView
+                android:id="@+id/campusmap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/psumap"
+                android:paddingBottom="70dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+            <!-- Cramer Button -->
+            <Button
+                android:id="@+id/cramer"
+                android:background="@android:color/transparent"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_marginTop="114dp"
+                android:layout_marginLeft="174dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true" />
+
+            <!-- Cramer Button -->
+            <Button
+                android:id="@+id/neuberger"
+                android:background="@android:color/transparent"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_marginTop="185dp"
+                android:layout_marginLeft="174dp" />
+
+        </RelativeLayout>
+        </com.groupc.officelocator.ZoomLayout>
+
+
+</RelativeLayout>
