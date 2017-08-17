@@ -18,11 +18,11 @@ The Minimum API Level for the PSU Locator applicataion is 22. The mobile device 
 
 ## Copyright
 
-For copyright information for this project see the [COPYING](https://github.com/vunhi/CS461P/blob/master/COPYING.md) file. 
+For copyright information for this project see the [COPYING.md](https://github.com/vunhi/CS461P/blob/master/COPYING.md) file. 
 
 ## License 
 
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/vunhi/CS461P/blob/master/LICENSE) file for details.
 
 ## Contact
 Nhi Vu - vunhi@pdx.edu

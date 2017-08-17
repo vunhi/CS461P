@@ -1,3 +1,11 @@
+/******************************************************************
+ * Copyright (c) 2017 Nhi Vu, Victor Diego                     *
+ * This program is licensed under the "MIT License".           *
+ * Please see the file COPYING in the source                   *
+ * distribution of this software for further copyright         *
+ * information and license terms.                              *
+ +/****************************************************************/
+
 package com.vunhi.psulocator;
 
 import android.graphics.Typeface;

@@ -1,5 +1,3 @@
-package com.vunhi.psulocator;
-
 /***************************************************************************************
  *    Title: ZoomLayout.java
  *    Author: anorth
@@ -8,6 +6,7 @@ package com.vunhi.psulocator;
  *    Availability: https://gist.github.com/anorth/9845602
  *
  ***************************************************************************************/
+package com.vunhi.psulocator;
 
 import android.content.Context;
 import android.util.AttributeSet;
