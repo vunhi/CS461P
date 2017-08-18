@@ -16,7 +16,7 @@ The Minimum API Level for the PSU Locator applicataion is 22. The mobile device 
 
 There are two options to run this application on your android device: 
 
-1. Download the [apk](https://github.com/vunhi/CS461P/blob/master/PSU%20Campus%20Locator.apk) to your android device. Use the file manager on your device to locate the file and install it on your phone. Allow for the application to be installed in your settings. 
+1. Download the [apk](https://github.com/vunhi/CS461P/blob/master/PSU%20Locator.apk) to your android device. Use the file manager on your device to locate the file and install it on your phone. Allow for the application to be installed in your settings. 
 
 2. Using an Android development environment like Android Studio, Clone or Download the source code from the [github repository](https://github.com/vunhi/CS461P) and build the application and run it on your device (hooking up your device to your computer) or an appropriate emulator. 
 
