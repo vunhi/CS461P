@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!-- ******************************************************* -->
+<!--    Copyright (c) 2017 Nhi Vu, Victor Diego              -->
+<!--    This program is licensed under the "MIT License".    -->
+<!--    Please see the file COPYING in the source            -->
+<!--    distribution of this software for further copyright  -->
+<!--    information and license terms.                       -->
+<!-- ******************************************************* -->
+
+    <!-- Universal Layout -->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -71,7 +81,7 @@
                 android:background="@android:color/transparent"
                 android:layout_width="30dip"
                 android:layout_height="30dip"
-                android:layout_marginTop="157dp"
+                android:layout_marginTop="134dp"
                 android:layout_marginLeft="178dp"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentLeft="true" />
@@ -82,7 +92,7 @@
                 android:background="@android:color/transparent"
                 android:layout_width="30dip"
                 android:layout_height="25dip"
-                android:layout_marginTop="227dp"
+                android:layout_marginTop="202dp"
                 android:layout_marginLeft="178dp" />
 
         </RelativeLayout>

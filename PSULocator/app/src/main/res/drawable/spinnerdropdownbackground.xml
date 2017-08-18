@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!-- ******************************************************* -->
+<!--    Copyright (c) 2017 Nhi Vu, Victor Diego              -->
+<!--    This program is licensed under the "MIT License".    -->
+<!--    Please see the file COPYING in the source            -->
+<!--    distribution of this software for further copyright  -->
+<!--    information and license terms.                       -->
+<!-- ******************************************************* -->
+
 <shape
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="rectangle">

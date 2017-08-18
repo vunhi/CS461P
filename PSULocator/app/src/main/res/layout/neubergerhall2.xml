@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!-- ******************************************************* -->
+<!--    Copyright (c) 2017 Nhi Vu, Victor Diego              -->
+<!--    This program is licensed under the "MIT License".    -->
+<!--    Please see the file COPYING in the source            -->
+<!--    distribution of this software for further copyright  -->
+<!--    information and license terms.                       -->
+<!-- ******************************************************* -->
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -44,8 +53,8 @@
                 android:visibility="invisible"
                 app:srcCompat="@drawable/locate"
                 android:tint="@color/markerColor"
-                android:layout_marginLeft="210dp"
-                android:layout_marginTop="135dp" />
+                android:layout_marginLeft="206dp"
+                android:layout_marginTop="110dp" />
 
             <ImageView
                 android:id="@+id/nh275"
@@ -57,8 +66,8 @@
                 android:layout_marginLeft="255dp"
                 android:layout_alignBottom="@+id/floorPlanImage"
                 android:layout_alignParentStart="true"
-                android:layout_marginStart="26dp"
-                android:layout_marginBottom="145dp" />
+                android:layout_marginStart="35dp"
+                android:layout_marginBottom="126dp" />
 
         </RelativeLayout>
     </com.vunhi.psulocator.ZoomLayout>

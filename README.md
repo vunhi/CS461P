@@ -9,10 +9,12 @@ As of this release the PSU Locator has been successfully implemented 2 buildings
 
 ## [How to use the Application](https://github.com/vunhi/CS461P/blob/master/How%20to%20use%20the%20PSU%20Locator.md)
 
-[Online simulator](https://appetize.io/app/xcrg55th46amgv69kufwtfrgc4?device=nexus5&scale=75&orientation=portrait&osVersion=7.0)
+[Online simulator](https://appetize.io/app/2ktbrrdhwqe70hp0wm9gfppajg?device=nexus5&scale=75&orientation=portrait&osVersion=7.0)
 
 ## Build
-The Minimum API Level for the PSU Locator applicataion is 22. The mobile device or emulator running the application must have an API greater than or equal to 22. There are two options to run this application on your android device: 
+The Minimum API Level for the PSU Locator applicataion is 22. The mobile device or emulator running the application must have an API greater than or equal to 22. This application was designed specifically for a device with a resolution of 1080 x 1920. Placement of certain markers and buttons may be slightly off on screens of different resolutions. 
+
+There are two options to run this application on your android device: 
 
 1. Download the [apk](https://github.com/vunhi/CS461P/blob/master/PSU%20Campus%20Locator.apk) to your android device. Use the file manager on your device to locate the file and install it on your phone. Allow for the application to be installed in your settings. 
 

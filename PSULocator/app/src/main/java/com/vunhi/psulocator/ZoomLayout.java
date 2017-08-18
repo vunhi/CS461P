@@ -1,6 +1,14 @@
+/******************************************************************
+ * Copyright (c) 2014 Nhi Vu, Victor Diego                     *
+ * This program is licensed under the "MIT License".           *
+ * Please see the file COPYING in the source                   *
+ * distribution of this software for further copyright         *
+ * information and license terms.                              *
+ +/****************************************************************/
+
 /***************************************************************************************
  *    Title: ZoomLayout.java
- *    Author: anorth
+ *    Author: Alex North
  *    Date: 2014
  *    Code version: 1.0
  *    Availability: https://gist.github.com/anorth/9845602
